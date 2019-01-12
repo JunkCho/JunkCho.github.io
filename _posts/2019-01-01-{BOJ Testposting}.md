@@ -8,6 +8,7 @@ tags:
   - github
   - markdown
 ---
+```python
 A = int(input())
 temp =0
 if A <=99:
@@ -19,3 +20,4 @@ else :
         if (i//100- ((i-100*(i//100))//10))== (i-100*(i//100))//10 - ((i-100*(i//100))-(10*((i-100*(i//100))//10))):
             temp += 1
     print(temp+99)
+```
